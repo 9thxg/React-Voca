@@ -10,7 +10,7 @@
             "day": 1,
             "eng": "book",
             "kor": "책",
-            "isDone": false
+            "isDone": true
         },
         {
             "id": 2,
@@ -24,7 +24,7 @@
             "day": 2,
             "eng": "book",
             "kor": "책",
-            "isDone": false
+            "isDone": true
         },
         {
             "id": 4,
@@ -38,7 +38,7 @@
             "day": 3,
             "eng": "book",
             "kor": "책",
-            "isDone": false
+            "isDone": true
         },
         {
             "id": 6,
