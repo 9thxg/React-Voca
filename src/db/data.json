@@ -59,6 +59,13 @@
       "day": "2",
       "isDone": false,
       "id": 10
+    },
+    {
+      "eng": "you",
+      "kor": "너",
+      "day": "4",
+      "isDone": false,
+      "id": 11
     }
   ]
 }

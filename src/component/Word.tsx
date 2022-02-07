@@ -1,6 +1,19 @@
+import React from 'react'
 import { useState } from "react"
 
-export default function Word ({word: w}) {
+interface IProps{
+    word: IWord;
+}
+
+export interface IWord{
+    eng: string;
+    kor: string;
+    day: string;
+    isDone: boolean;
+    id: number;
+}
+
+export default function Word ({word: w}: IProps) {
     const [word, setWord] = useState(w);
     const [isShow, setIsShow] = useState(false);
     const [isDone, setIsDone] = useState(word.isDone);
@@ -32,7 +45,10 @@ export default function Word ({word: w}) {
                 method : 'DELETE',
             }).then(res => {
                 if(res.ok){
-                    setWord({id : 0});
+                    setWord({
+                        ...word,
+                        id : 0
+                    });
                 }
             })
         }
