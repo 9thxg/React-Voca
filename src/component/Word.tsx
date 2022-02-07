@@ -68,7 +68,7 @@ export default function Word ({word: w}: IProps) {
                     <button onClick={toggleShow}>
                         뜻 {isShow ? "숨기기" : "보기"}
                     </button>
-                    <button className="btn_del" onClick={del}>삭제</button>
+                    <button className="btn_del" onClick={del} style={{marginLeft: "10px"}}>삭제</button>
                 </td>
             </tr>
         </>

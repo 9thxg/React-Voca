@@ -7,6 +7,7 @@ import CreateWord from './component/CreateWord';
 import CreateDay from './component/CreateDay';
 import EmptyPage from './component/EmptyPage';
 import Header from './component/Header';
+import DeleteDay from './component/DeleteDay';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/day/:day" element={<Day/>}/>
           <Route path="/create_word" element={<CreateWord/>}/>
           <Route path="/create_day" element={<CreateDay/>}/>
+          <Route path="/delete_day" element={<DeleteDay/>}/>
           <Route path="*" element={<EmptyPage/>}/>
         </Routes>
       </div>
