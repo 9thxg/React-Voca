@@ -9,8 +9,8 @@
       "day": 2
     },
     {
-      "id": 3,
-      "day": 3
+      "day": 3,
+      "id": 3
     },
     {
       "day": 4,
@@ -22,20 +22,6 @@
     }
   ],
   "words": [
-    {
-      "id": 5,
-      "day": 3,
-      "eng": "book",
-      "kor": "책",
-      "isDone": true
-    },
-    {
-      "id": 6,
-      "day": 3,
-      "eng": "book",
-      "kor": "책",
-      "isDone": false
-    },
     {
       "eng": "dog",
       "kor": "개",
@@ -65,11 +51,39 @@
       "id": 10
     },
     {
-      "eng": "you",
-      "kor": "너",
-      "day": "4",
+      "eng": "english",
+      "kor": "영어",
+      "day": "3",
       "isDone": false,
       "id": 11
+    },
+    {
+      "eng": "dog",
+      "kor": "개",
+      "day": "4",
+      "isDone": false,
+      "id": 12
+    },
+    {
+      "eng": "111",
+      "kor": "111",
+      "day": "1",
+      "isDone": false,
+      "id": 13
+    },
+    {
+      "eng": "ss",
+      "kor": "ss",
+      "day": "5",
+      "isDone": false,
+      "id": 22
+    },
+    {
+      "eng": "ss",
+      "kor": "ss",
+      "day": "5",
+      "isDone": false,
+      "id": 23
     }
   ]
 }
